@@ -2,7 +2,7 @@
 
 ### Стек технологий
 + [Python3](https://www.python.org/downloads/ "python3")
-+ [aiogram](https://github.com/aiogram/aiogram "aiogram") + [sqlite](https://www.sqlite.org/index.html "sqlite") +   [cryptocode](http://example.com/ "cryptocode")
++ [aiogram](https://github.com/aiogram/aiogram "aiogram") + [sqlite](https://www.sqlite.org/index.html "sqlite") +   [cryptocode](https://pypi.org/project/cryptocode/ "cryptocode")
 
 ### Поля для базы данных
 #### Таблица пользователи (users)
@@ -28,8 +28,8 @@
 
 ### Кнопки для генерации пароля
 + слабый пароль - 9 символов
-+ средний пароль 27 символов
-+ стойкий пароль 64 символа
++ средний пароль - 27 символов
++ стойкий пароль - 64 символа
 
 Так же у пользователя есть возмонжость посмотреть свои пароли. При нажатии на кнопку "Мои пароли" пользователю предоставляется сообщение с inline кнопками, текст на кнопках равен полю title из базы данных. При нажатии на кнопку - сообщение изменяется. Пользователю отображается сообщение следующего вида
 Заголовок (title)
